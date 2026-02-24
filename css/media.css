@@ -340,7 +340,7 @@
         pointer-events: none;
     }
 
-    /* Показываем гирлянду только когда меню активно */
+    /* Показ гирлянды только когда меню активно */
     .nav.active .girland_new_year {
         display: block;
     }
@@ -638,7 +638,7 @@
         font-family: var(--font-family);
         font-weight: 700;
         font-size: 30px;
-        text-align: center !important; /* Принудительно */
+        text-align: center !important;
         margin-left: 0 !important;
         margin-right: 0 !important;
         width: 100% !important;
@@ -687,7 +687,7 @@
         font-family: var(--font-family);
         font-weight: 700;
         font-size: 30px;
-        text-align: center !important; /* Принудительно */
+        text-align: center !important;
         margin-left: 0 !important;
         margin-right: 0 !important;
         width: 100% !important;
@@ -707,7 +707,7 @@
         margin-bottom: 25px;
     }
 
-    /* Стили для индикаторов - Уменьшаем расстояние между колонками */
+    /* Стили для индикаторов - Уменьшено расстояние между колонками */
     .indicators {
         display: flex;
         flex-direction: column;
@@ -774,7 +774,7 @@
         font-weight: 700;
         font-size: 30px;
         line-height: 150%;
-        text-align: center !important; /* Принудительно */
+        text-align: center !important;
         margin-left: 0 !important;
         margin-right: 0 !important;
         width: 100% !important;
@@ -923,7 +923,7 @@
     
     .list__lessons__desc {
         order: -1;
-        text-align: center !important; /* Принудительно */
+        text-align: center !important;
         margin-left: 0 !important;
         margin-right: 0 !important;
         width: 100% !important;
@@ -1436,7 +1436,7 @@
         width: 45px;
         height: 45px;
         top: 30px;
-        right: 10px;
+        right: 40px;
     }
     
     .snowflake-svg {
@@ -1444,12 +1444,12 @@
         height: 30px;
     }
     
-    /* Уменьшаем количество снежинок для производительности */
+    /* Уменьшено количество снежинок для производительности */
     .snow-container .snowflake:nth-child(n+31) {
-        display: none; /* Скрываем часть снежинок на мобильных */
+        display: none;
     }
     
-    /* Уменьшаем размеры снежинок */
+    /* Уменьшены размеры снежинок */
     .snowflake.small svg {
         width: 8px;
         height: 8px;
@@ -1467,7 +1467,7 @@
         height: 20px;
     }
     
-    /* Увеличиваем скорость анимаций */
+    /* Увеличена скорость анимаций */
     .snowflake.s1 { animation-duration: 14s !important; }
     .snowflake.s2 { animation-duration: 12s !important; }
     .snowflake.s3 { animation-duration: 13s !important; }
@@ -1748,7 +1748,7 @@
         transition: opacity 0.3s ease;
     }
 
-    /* Скрываем логотип когда меню открыто */
+    /* Скрыт логотип когда меню открыто */
     .nav.active ~ .container .header__logo {
         opacity: 0;
         pointer-events: none;
@@ -1842,7 +1842,7 @@
         pointer-events: none;
     }
 
-    /* Показываем гирлянду только когда меню активно */
+    /* Показ гирлянды только когда меню активно */
     .nav.active .girland_new_year {
         display: block;
     }
@@ -2239,7 +2239,7 @@
         text-align: center;
     }
 
-    /* Стили для индикаторов - Уменьшаем расстояние между колонками */
+    /* Стили для индикаторов - Уменьшено расстояние между колонками */
     .indicators {
         display: flex;
         flex-direction: column;
@@ -2892,7 +2892,7 @@
         width: 50px;
         height: 50px;
         top: 25px;
-        right: 15px;
+        right: 52px;
     }
     
     .snowflake-svg {
@@ -2905,7 +2905,7 @@
         color: var(--snowflake-color);
     }
     
-    /* Немного уменьшаем количество снежинок */
+    /* Немного уменьшено количество снежинок */
     .snow-container .snowflake:nth-child(n+36) {
         display: none;
     }
@@ -3063,7 +3063,7 @@
         height: 35px;
     }
     
-    /* Показываем мобильную навигацию */
+    /* Пока мобильной навигации */
     .nav {
         display: none;
         position: fixed;
@@ -3132,7 +3132,7 @@
         pointer-events: none;
     }
 
-    /* Показываем гирлянду только когда меню активно */
+    /* Показ гирлянды только когда меню активно */
     .nav.active .girland_new_year {
         display: block;
     }
@@ -3510,7 +3510,7 @@
         font-weight: 700;
     }
 
-    /* Стили для индикаторов - Уменьшаем расстояние между колонками */
+    /* Стили для индикаторов - Уменьшено расстояние между колонками */
     .indicators {
         display: flex;
         flex-direction: column;
@@ -4137,8 +4137,8 @@
     .snow-toggle-btn {
         width: 55px;
         height: 55px;
-        top: 25px;
-        right: 25px;
+        top: 55px;
+        right: 35px;
     }
     
     .snowflake-svg {
@@ -4148,10 +4148,10 @@
     
     /* Оптимальное количество снежинок */
     .snow-container .snowflake:nth-child(n+41) {
-        display: none; /* Показываем 40 снежинок */
+        display: none;
     }
     
-    /* Уменьшаем размеры снежинок для лучшей производительности */
+    /* Уменьшены размеры снежинок для лучшей производительности */
     .snowflake.small svg {
         width: 9px;
         height: 9px;
@@ -4169,7 +4169,7 @@
         height: 21px;
     }
     
-    /* Оптимизируем анимации для средних экранов */
+    /* Оптимизирована анимация для средних экранов */
     .snowflake.s1 { animation-duration: 20s !important; }
     .snowflake.s2 { animation-duration: 18s !important; }
     .snowflake.s3 { animation-duration: 19s !important; }
@@ -4214,7 +4214,7 @@
     .snowflake.s39 { animation-duration: 18s !important; }
     .snowflake.s40 { animation-duration: 17s !important; }
     
-    /* Уменьшаем разброс снежинок по горизонтали чтобы не было скролла */
+    /* Уменьшен разброс снежинок по горизонтали чтобы не было скролла */
     .snowflake.s1 { left: 3%; }
     .snowflake.s2 { left: 11%; }
     .snowflake.s3 { left: 19%; }
@@ -4259,7 +4259,7 @@
     .snowflake.s39 { left: 25%; }
     .snowflake.s40 { left: 33%; }
     
-    /* Уменьшаем горизонтальное смещение в анимациях */
+    /* Уменьшено горизонтальное смещение в анимациях */
     @keyframes snowfall-svg-slow1-tablet {
         0% {
             transform: translateY(-100px) translateX(0) rotate(0deg);
@@ -4272,7 +4272,7 @@
             opacity: 0.7;
         }
         100% {
-            transform: translateY(100vh) translateX(15px) rotate(180deg); /* Меньше смещение */
+            transform: translateY(100vh) translateX(15px) rotate(180deg);
             opacity: 0;
         }
     }
@@ -4289,7 +4289,7 @@
             opacity: 0.6;
         }
         100% {
-            transform: translateY(100vh) translateX(12px) rotate(360deg); /* Меньше смещение */
+            transform: translateY(100vh) translateX(12px) rotate(360deg);
             opacity: 0;
         }
     }
@@ -4306,7 +4306,7 @@
             opacity: 0.6;
         }
         100% {
-            transform: translateY(100vh) translateX(10px) rotate(90deg); /* Меньше смещение */
+            transform: translateY(100vh) translateX(10px) rotate(90deg);
             opacity: 0;
         }
     }
@@ -4789,7 +4789,7 @@
         text-align: center;
     }
 
-    /* Стили для индикаторов - Уменьшаем расстояние между колонками */
+    /* Стили для индикаторов - Уменьшено расстояние между колонками */
     .indicators {
         display: flex;
         flex-direction: column;
@@ -5464,8 +5464,8 @@
     .snow-toggle-btn {
         width: 58px;
         height: 58px;
-        top: 30px;
-        right: 30px;
+        top: 80px;
+        right: 35px;
     }
     
     .snowflake-svg {
@@ -5473,7 +5473,7 @@
         height: 34px;
     }
     
-    /* Используем все 40 снежинок */
+    /* Используется все 40 снежинок */
     .snow-container .snowflake:nth-child(n+41) {
         display: none;
     }
@@ -5500,7 +5500,7 @@
         opacity: 1;
     }
     
-    /* Оптимизируем скорость анимаций для больших экранов */
+    /* Оптимизирована скорость анимаций для больших экранов */
     .snowflake.s1 { animation-duration: 22s !important; }
     .snowflake.s2 { animation-duration: 20s !important; }
     .snowflake.s3 { animation-duration: 21s !important; }
@@ -5545,7 +5545,7 @@
     .snowflake.s39 { animation-duration: 20s !important; }
     .snowflake.s40 { animation-duration: 19s !important; }
     
-    /* Добавляем несколько дополнительных снежинок для плотности */
+    /* Добавлено несколько дополнительных снежинок для плотности */
     .snowflake.s41 {
         display: block !important;
         left: 6%;
@@ -5631,7 +5631,7 @@
         width: 19px; height: 19px; opacity: 0.9;
     }
     
-    /* Улучшаем распределение снежинок */
+    /* Улучшено распределение снежинок */
     .snowflake.s1 { left: 4%; }
     .snowflake.s2 { left: 12%; }
     .snowflake.s3 { left: 20%; }
@@ -5663,12 +5663,12 @@
         opacity: 0.85;
     }
     
-    /* Улучшаем видимость на темном фоне */
+    /* Улучшена видимость на темном фоне */
     .snowflake svg {
         filter: drop-shadow(0 0 1px rgba(255, 255, 255, 0.4));
     }
     
-    /* Предотвращаем выход за границы экрана */
+    /* Предотвращён выход за границы экрана */
     .snow-container {
         overflow: hidden;
     }
