@@ -1,6 +1,6 @@
 // JavaScript для работы бургер-меню и снега
 document.addEventListener('DOMContentLoaded', function() {
-    // ====================== БУРГЕР-МЕНЮ ======================
+    // БУРГЕР-МЕНЮ
     const burgerMenu = document.getElementById('burgerMenu');
     const nav = document.querySelector('.nav');
     
@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    // ====================== ТАРИФЫ ИЗ URL ======================
+    // ТАРИФЫ ИЗ URL
     const urlParams = new URLSearchParams(window.location.search);
     const tariff = urlParams.get('tariff');
     
@@ -32,11 +32,11 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
-    // ====================== СОЗДАНИЕ SVG СНЕЖИНОК ======================
+    // СОЗДАНИЕ SVG СНЕЖИНОК
     setTimeout(function() {
         const snowContainer = document.querySelector('.snow-container');
         if (snowContainer) {
-            // Очищаем контейнер от старых снежинок (если есть)
+            // Очистка контейнера от старых снежинок (если есть)
             snowContainer.innerHTML = '';
             
             // SVG код белой снежинки
@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', function() {
             // Размеры снежинок
             const sizes = ['small', 'medium', 'large', 'xlarge'];
             
-            // Создаем 40 снежинок с разными размерами
+            // Создание 40-а снежинок с разными размерами
             for (let i = 1; i <= 40; i++) {
                 const snowflake = document.createElement('div');
                 const randomSize = sizes[Math.floor(Math.random() * sizes.length)];
