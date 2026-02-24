@@ -307,7 +307,7 @@ html {
 
 /* БУРГЕР-МЕНЮ (БАЗОВЫЕ СТИЛИ) */
 .burger-menu {
-    display: none; /* Скрыто на десктопе по умолчанию */
+    display: none;
     background: transparent;
     border: none;
     cursor: pointer;
@@ -333,7 +333,7 @@ html {
     visibility: hidden;
 }
 
-/* Когда меню открыто - показываем крестик, скрываем бургер */
+/* Когда меню открыто - показ крестика, скрыт бургер */
 .burger-menu.active .menu-icon {
     opacity: 0;
     visibility: hidden;
@@ -731,7 +731,7 @@ html {
     z-index: 1;
 }
 
-/* Создаем градиентную границу через псевдоэлемент */
+/* Градиентная граница через псевдоэлемент */
 .program__content--list::before {
     content: '';
     position: absolute;
@@ -914,7 +914,7 @@ html {
     font-weight: 700;
 }
 
-/* Стили для индикаторов - Уменьшаем расстояние между колонками */
+/* Стили для индикаторов - Уменьшено расстояние между колонками */
 .indicators {
     display: flex;
     flex-direction: column;
