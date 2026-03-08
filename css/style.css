@@ -242,6 +242,8 @@
     width: auto;
     color: var(--green-color);
     text-shadow: 0 0 2px #2ce72c, 0 0 2px #00ff00;
+
+    touch-action: none;
 }
 
 @keyframes textAppear {
@@ -274,6 +276,12 @@
 }
 
 /* Общие стили для всей страницы */
+html.no-scroll,
+body.no-scroll {
+    overflow: hidden;
+    height: 100%;
+}
+
 body {
     overflow-x: hidden;
     -webkit-touch-callout: none; /* iOS Safari */

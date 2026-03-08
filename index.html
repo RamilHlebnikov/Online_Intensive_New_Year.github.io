@@ -700,5 +700,34 @@
     <div class="snow-container"></div>
 
     <script src="./js/script.js"></script>
+
+    <!-- <script>
+    document.documentElement.classList.add("no-scroll");
+    document.body.classList.add("no-scroll");
+
+    window.addEventListener("load", function () {
+        setTimeout(function () {
+            document.documentElement.classList.remove("no-scroll");
+            document.body.classList.remove("no-scroll");
+        }, 4500);
+    });
+    </script> -->
+
+    <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const preloader = document.querySelector(".preloader");
+        if (!preloader) return;
+
+        document.documentElement.classList.add("no-scroll");
+        document.body.classList.add("no-scroll");
+
+        window.addEventListener("load", function () {
+            setTimeout(function () {
+                document.documentElement.classList.remove("no-scroll");
+                document.body.classList.remove("no-scroll");
+            }, 4500);
+        });
+    });
+    </script>
 </body>
 </html>
