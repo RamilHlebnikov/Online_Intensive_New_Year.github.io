@@ -609,6 +609,7 @@ html {
     display: flex;
     align-items: center;
     transition: var(--transition);
+    cursor: pointer;
 }
 
 .for-whom__card:hover {
@@ -770,6 +771,7 @@ html {
     border-radius: calc(var(--border-radius) - 12px);
     z-index: -1;
     transition: background 0.4s ease;
+    cursor: pointer;
 }
 
 .program__content--list:hover::after {
@@ -987,6 +989,7 @@ html {
     z-index: 1;
     transition: all 0.5s ease;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3), 0 0 0 1px rgba(219, 77, 89, 0.1);
+    cursor: pointer;
 }
 
 .about__main--images:hover {
@@ -1217,6 +1220,7 @@ html {
     position: relative;
     border: 3px solid var(--title-color-dark);
     transition: var(--transition);
+    cursor: pointer;
 }
 
 .pricing__content--card:hover {
@@ -2360,7 +2364,6 @@ html {
     background: rgba(0, 0, 0, 0.65);
     z-index: 9999;
     pointer-events: none;
-    pointer-events: none;
 }
 
 .modal-overlay.is-open {
@@ -2397,7 +2400,8 @@ html {
     border: none;
     border-radius: 999px;
     cursor: pointer;
-    background: rgba(10, 30, 20, 0.12);
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(5px);
     color: var(--secondary-color);
     font-size: 28px;
     line-height: 42px;

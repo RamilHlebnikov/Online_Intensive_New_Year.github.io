@@ -462,7 +462,6 @@
         top: -120px;
         left: auto;
         right: 0;
-        transform: none !important;
     }
 
     .Icicle_banner {
@@ -665,12 +664,12 @@
         border: 2px solid transparent;
         border-radius: calc(var(--border-radius) - 10px);
         transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        cursor: pointer;
     }
 
     .program__images {
         width: 46px;
         height: 46px;
-        transform: none !important;
     }
 
     .program__desc {
@@ -763,6 +762,7 @@
         margin-bottom: -30px;
         border-radius: var(--border-radius);
         box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3), 0 0 0 1px rgba(219, 77, 89, 0.1);
+        cursor: pointer;
     }
 
     /* Лист уроков интенсива */
@@ -987,6 +987,7 @@
         position: relative;
         margin-left: 0 !important;
         margin-right: 0 !important;
+        cursor: pointer;
     }
 
     .pricing__content--card:hover {
@@ -1043,7 +1044,7 @@
         top: -30px;
         left: 240px;
         object-fit: cover;
-        transform: none !important;
+        cursor: pointer;
     }
 
     .pricing__content--stories {
@@ -1052,11 +1053,6 @@
         justify-content: center;
         align-items: center;
         gap: 25px;
-    }
-
-    .pricing__content__images--gift {
-        transform: none !important;
-        filter: none !important;
     }
 
     .pricing__content__stories--text {
@@ -1376,7 +1372,6 @@
         width: 84px;
         height: auto;
         cursor: pointer;
-        transform: none !important;
     }
 
     .cookie__container--label {
@@ -1959,7 +1954,6 @@
         top: -150px;
         left: auto;
         right: 0;
-        transform: none !important;
     }
 
     .Icicle_banner {
@@ -2056,6 +2050,7 @@
         padding: 25px 20px 25px 60px;
         position: relative;
         margin: 0 auto;
+        cursor: pointer;
     }
 
     .for-whom__card:hover {
@@ -2182,7 +2177,6 @@
     .program__images {
         width: 60px;
         height: 60px;
-        transform: none !important;
         flex-shrink: 0;
     }
 
@@ -2555,7 +2549,6 @@
         top: -30px;
         left: 240px;
         object-fit: cover;
-        transform: none !important;
     }
 
     .pricing__content--stories {
@@ -2564,11 +2557,6 @@
         justify-content: center;
         align-items: center;
         gap: 25px;
-    }
-
-    .pricing__content__images--gift {
-        transform: none !important;
-        filter: none !important;
     }
 
     .pricing__content__stories--text {
@@ -3234,7 +3222,6 @@
         top: -40px;
         width: 35%;
         z-index: 2;
-        transform: none !important;
     }
 
     .Icicle_banner {
@@ -3325,6 +3312,7 @@
         padding: 20px 15px 20px 50px;
         position: relative;
         margin: 0;
+        cursor: pointer;
     }
 
     .for-whom__card:hover {
@@ -3450,7 +3438,6 @@
         width: 55px;
         height: 55px;
         flex-shrink: 0;
-        transform: none !important;
     }
 
     .program__desc {
@@ -3581,6 +3568,7 @@
         margin-bottom: 50px;
         border-radius: var(--border-radius);
         box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3), 0 0 0 1px rgba(219, 77, 89, 0.1);
+        cursor: pointer;
     }
 
     /* Лист уроков интенсива */
@@ -3751,6 +3739,7 @@
         position: relative;
         margin-left: 0 !important;
         margin-right: 0 !important;
+        cursor: pointer;
     }
 
     .pricing__content--card:hover {
@@ -3808,7 +3797,7 @@
         top: -30px;
         left: 240px;
         object-fit: cover;
-        transform: none !important;
+        cursor: pointer;
     }
 
     .pricing__content--stories {
@@ -3817,11 +3806,6 @@
         justify-content: center;
         align-items: center;
         gap: 25px;
-    }
-
-    .pricing__content__images--gift {
-        transform: none !important;
-        filter: none !important;
     }
 
     .pricing__content__stories--text {
@@ -4516,10 +4500,6 @@
         transform: scale(1.1);
     }
 
-    .bg-effect {
-        display: none;
-    }
-
     .Icicle_banner {
         position: absolute;
         top: -154px;
@@ -4607,6 +4587,7 @@
         padding: 25px 20px 25px 55px;
         position: relative;
         margin: 0;
+        cursor: pointer;
     }
 
     .for-whom__card:hover {
@@ -5017,6 +4998,7 @@
         width: 350px;
         padding: 60px 25px 0 30px;
         position: relative;
+        cursor: pointer;
     }
 
     .pricing__content--card:hover {
