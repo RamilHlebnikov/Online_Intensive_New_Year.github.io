@@ -857,7 +857,7 @@
         transform: translateX(-50%);
     }
 
-    /* Анимация при открытии - превращаем плюс в минус */
+    /* Анимация при открытии - превращение плюса в минус */
     .accordion-toggle:checked + .accordion-label .icon::after {
         transform: translateX(-50%) rotate(90deg);
         opacity: 0;
@@ -1671,7 +1671,7 @@
         }
     }
 
-    /* Текст загрузки - ВСЕ НА ОДНОЙ СТРОКЕ */
+    /* Текст загрузки */
     .loading-text {
         position: absolute;
         bottom: -35px;
@@ -2394,7 +2394,7 @@
         transform: translateX(-50%);
     }
 
-    /* Анимация при открытии - превращаем плюс в минус */
+    /* Анимация при открытии - превращение плюса в минус */
     .accordion-toggle:checked + .accordion-label .icon::after {
         transform: translateX(-50%) rotate(90deg);
         opacity: 0;

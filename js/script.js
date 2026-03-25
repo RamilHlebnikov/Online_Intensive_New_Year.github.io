@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function() {
     setTimeout(function() {
         const snowContainer = document.querySelector('.snow-container');
         if (snowContainer) {
-            // Очистка контейнера от старых снежинок (если есть)
+            // Очистка контейнера от старых снежинок
             snowContainer.innerHTML = '';
             
             // SVG код белой снежинки

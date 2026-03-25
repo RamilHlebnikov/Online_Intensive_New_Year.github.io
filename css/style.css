@@ -1136,7 +1136,7 @@ html {
     transform: translateX(-50%);
 }
 
-/* Анимация при открытии - превращаем плюс в минус */
+/* Анимация при открытии - превращение плюса в минус */
 .accordion-toggle:checked + .accordion-label .icon::after {
     transform: translateX(-50%) rotate(90deg);
     opacity: 0;
@@ -1524,7 +1524,7 @@ html {
     transform: translateX(-50%);
 }
 
-/* Анимация при открытии - превращаем плюс в минус */
+/* Анимация при открытии - превращение плюса в минус */
 .accordion-toggle:checked + .accordion-label .icon::after {
     transform: translateX(-50%) rotate(90deg);
     opacity: 0;
@@ -2300,7 +2300,7 @@ html {
 }
 
 /* Распределение снежинок с разными СРЕДНИМИ анимациями */
-/* Группа 1: медленные (12-18 секунд) */
+/* Медленные (12-18 секунд) */
 .snowflake.s1 { left: 5%; animation: snowfall-svg-very-slow1 18s linear infinite 0s; }
 .snowflake.s2 { left: 15%; animation: snowfall-svg-very-slow2 15s linear infinite 2s; }
 .snowflake.s3 { left: 25%; animation: snowfall-svg-very-slow1 16s linear infinite 4s; }
@@ -2312,7 +2312,7 @@ html {
 .snowflake.s9 { left: 85%; animation: snowfall-svg-very-slow1 12s linear infinite 7s; }
 .snowflake.s10 { left: 95%; animation: snowfall-svg-very-slow2 19s linear infinite 8s; }
 
-/* Группа 2: средние (8-12 секунд) */
+/* Средние (8-12 секунд) */
 .snowflake.s11 { left: 8%; animation: snowfall-svg-slow1 12s linear infinite 9s; }
 .snowflake.s12 { left: 18%; animation: snowfall-svg-slow2 11s linear infinite 10s; }
 .snowflake.s13 { left: 28%; animation: snowfall-svg-slow3 10s linear infinite 11s; }
@@ -2324,7 +2324,7 @@ html {
 .snowflake.s19 { left: 88%; animation: snowfall-svg-slow1 10s linear infinite 17s; }
 .snowflake.s20 { left: 98%; animation: snowfall-svg-slow2 11s linear infinite 18s; }
 
-/* Группа 3: быстрее средних (6-10 секунд) */
+/* Быстрее средних (6-10 секунд) */
 .snowflake.s21 { left: 3%; animation: snowfall-svg-slow3 10s linear infinite 19s; }
 .snowflake.s22 { left: 13%; animation: snowfall-svg-slow4 6s linear infinite 20s; }
 .snowflake.s23 { left: 23%; animation: snowfall-svg-slow1 8s linear infinite 21s; }
@@ -2336,7 +2336,7 @@ html {
 .snowflake.s29 { left: 83%; animation: snowfall-svg-slow3 7s linear infinite 27s; }
 .snowflake.s30 { left: 93%; animation: snowfall-svg-slow4 9s linear infinite 28s; }
 
-/* Группа 4: медленные (15-22 секунды) */
+/* Медленные (15-22 секунды) */
 .snowflake.s31 { left: 2%; animation: snowfall-svg-very-slow1 22s linear infinite 29s; }
 .snowflake.s32 { left: 12%; animation: snowfall-svg-very-slow2 20s linear infinite 30s; }
 .snowflake.s33 { left: 22%; animation: snowfall-svg-very-slow1 18s linear infinite 31s; }
